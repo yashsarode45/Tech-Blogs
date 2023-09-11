@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Tech-Blogs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Preview](#preview)
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Navigation](#navigation)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+"Tech-Blogs" is a web application that provides a platform for reading and exploring technical blogs. It offers a collection of blogs organized by categories and tags. Users can easily navigate between blogs and discover related content.
+It is made to concretely understand the concept of routing, dynamic url based rendering, useSearchParams(), useLocation() hooks.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Blog Listing**:
+  - Displays a list of blogs, each with a heading, category, a short paragraph, and tags.
+  
+- **Category Filtering**:
+  - Click on a category to view blogs from the same category.
+  
+- **Tag Filtering**:
+  - Click on a tag to view blogs that share the same tag.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Pagination**:
+  - Navigate between blog pages using the "Previous" and "Next" buttons in the navigation bar.
 
-### `npm test`
+## Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/yashsarode45/Tech-Blogs/assets/65209607/f67276f8-c638-45b4-8745-437ccd974325)
+[View Live Demo](https://tech-blogs-ten.vercel.app/)
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- React Router DOM
+- Tailwind CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Blog Listing**:
+   - Browse through the list of blogs, each displaying a heading, category, short paragraph, and tags.
 
-### `npm run eject`
+2. **Category Filtering**:
+   - Click on a category link to view blogs from the same category.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Tag Filtering**:
+   - Click on a tag link to view blogs that share the same tag.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Pagination**:
+   - Use the "Previous" and "Next" buttons in the navigation bar to navigate between blog pages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Navigation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Category Page**:
+  - Click on a category link to view other blogs from the same category.
+  - Use the "Back" button to return to the previous page.
 
-## Learn More
+- **Tag Page**:
+  - Click on a tag link to view other blogs with the same tag.
+  - Use the "Back" button to return to the previous page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Blog Page**:
+  - Click on a blog heading to view the full blog post.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
